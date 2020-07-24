@@ -44,7 +44,7 @@ __Step 3. Train the image datasets by google colab__\
 The fun part begins! Time to train our dataset.\
 The reason why I used google colab is that it provides free GPU. Training the YOLO algorithm requires heavy computation and using GPU can make this process faster.\
 In a nutshell, I upload the dataset to google drive and connected it to the Jupyter notebook in Colab. Training the dataset by darknet.\
-If you want to learn more, you can click the tutorial I followed (below link).
+If you want to learn more, you can click the tutorial I followed (below link).\
 [Train YOLO to detect a custom object](https://pysource.com/2020/04/02/train-yolo-to-detect-a-custom-object-online-with-free-gpu/)
 
 The reason why I used the YOLO is that the YOLO is based on regression. It can scan the whole image and make predictions to localize, identify, and classify objects within the image. It is much faster than CNN which is based on classification.\
