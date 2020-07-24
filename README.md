@@ -1,5 +1,6 @@
 # Deep Learning YOLO - Basketball Detection
----
+
+
 
 
 __Motivation__:\
@@ -61,6 +62,5 @@ You can find my Python file in the repositories. (yolo_video.py)
 (The model recognized basketball and circled it successfully. Also, gave it a probability!)
 
 # Summary
----
 By the project, I finally enter the world of deep learning. I will keep learning and refine this project. My next idea is to create a multiple objects detection. Hope you guys like my project and thank you for reading!\
 Happy Learning and See y'all in the next project!
