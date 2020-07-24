@@ -10,10 +10,6 @@ Therefore, I used the YOLO algorithm to detect the basketball in a video and tra
 
 In this project, I used Python, OpenCV, Google Colab, and LabelImg.
 
-The project's flow chart
----
-<img src = "BasketBall-Tracking-FC.jpg" width='900' heigh='600'>
-
 ## Important Resourses
 This is my first deep learning project. And as we all know, Deep learning is a complicated field and as a novice like me, it's impossible to finish this project without research and tutorials. Therefore, I want to give a big big thanks to below resources I used. This project cannot be done without them!/
 Highly recommended if you are new in deep learning.
@@ -23,7 +19,9 @@ Highly recommended if you are new in deep learning.
 2. [YOLO object detection with OpenCV](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/)
 3. [Ball Tracking with OpenCV](https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
 
+The project's flow chart
 ---
+<img src = "BasketBall-Tracking-FC.jpg" width='900' heigh='600'>
 
 __Step 1. Prepare the training pictures__\
 Most machine learning start from collecting data. There is no shortcut.\
