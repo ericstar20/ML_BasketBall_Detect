@@ -12,6 +12,7 @@ In this project, I used Python, OpenCV, Google Colab, and LabelImg.
 
 ## Important Resourses
 This is my first deep learning project. And as we all know, Deep learning is a complicated field and as a novice like me, it's impossible to finish this project without research and tutorials. Therefore, I want to give a big big thanks to below resources I used. This project cannot be done without them!/
+
 Highly recommended if you are new in deep learning.
 
 ### The References and Tutorials I used
