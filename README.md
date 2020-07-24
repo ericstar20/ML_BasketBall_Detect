@@ -57,7 +57,7 @@ And after I located the ball I circled it based on the center and the radius. An
 You can find my Python file in the repositories. (yolo_video.py)
 <img src = "githib_two_ball.gif" width='900' heigh='600'>
 <img src = "basketball_probability.jpg" width='900' heigh='600'>\
-(You can see the model can recognize basketball and circled it. Also, gave it a probability!)
+(The model recognized basketball and circled it successfully. Also, gave it a probability!)
 
 # Summary
 ---
