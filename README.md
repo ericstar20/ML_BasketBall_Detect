@@ -56,7 +56,8 @@ Final step! I used the model I trained to detect the basketball in the video.\
 And after I located the ball I circled it based on the center and the radius. And stored the previous ball's center in a list. Therefore, I can use the list to draw a tracking line on the video.\
 You can find my Python file in the repositories. (yolo_video.py)
 <img src = "githib_two_ball.gif" width='900' heigh='600'>
-<img src = "basketball_probability.jpg" width='900' heigh='600'>
+<img src = "basketball_probability.jpg" width='900' heigh='600'>\
+(You can see the model can recognize basketball and circled it. Also, gave it a probability!)
 
 # Summary
 ---
