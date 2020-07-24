@@ -1,5 +1,7 @@
 # Deep Learning YOLO - Basketball Detection
-&nbsp;
+
+<p>&nbsp;</p>
+
 __Motivation__:\
 As both basketball and machine learning enthusiast, I really want to combine these two elements in a project.\
 Therefore, I used the YOLO algorithm to detect the basketball in a video and track the ball as it moves around in the video frames, drawing its previous positions as it moves.\
