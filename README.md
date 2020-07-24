@@ -1,7 +1,6 @@
 # Deep Learning YOLO - Basketball Detection
 
-
-
+&nbsp;
 
 __Motivation__:\
 As both basketball and machine learning enthusiast, I really want to combine these two elements in a project.\
@@ -10,6 +9,8 @@ Therefore, I used the YOLO algorithm to detect the basketball in a video and tra
 <img src = "githib_shot.gif" width='900' heigh='600'>
 
 In this project, I used Python, OpenCV, Google Colab, and LabelImg.
+
+&nbsp;
 
 ## Important Resourses
 This is my first deep learning project. And as we all know, Deep learning is a complicated field and as a novice like me, it's impossible to finish this project without research and tutorials. Therefore, I want to give a big big thanks to below resources I used. This project cannot be done without them!
@@ -21,10 +22,9 @@ Highly recommended if you are new in deep learning.
 2. [YOLO object detection with OpenCV](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/)
 3. [Ball Tracking with OpenCV](https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
 
-The project's flow chart
----
+### The project's flow chart
 <img src = "BasketBall-Tracking-FC.jpg" width='900' heigh='600'>
-
+&nbsp;
 __Step 1. Prepare the training pictures__\
 Most machine learning start from collecting data. There is no shortcut.\
 This step is boring and time-consuming. However, it is important. I redo this step several times.\
@@ -33,14 +33,14 @@ First, I used to build a model based on only 100 pictures. But the detecting res
 Second, the picture you choose needs to in the various forms. Take my case, for example, my image dataset needs to contain a basketball in a crowd, a basketball in a regular court, a basketball with the sunset, etc... We must provide abundant examples for a machine to learn. In my final dataset, I acquired 309 pictures. It was the most tiring thing in the project.
 
 ---
-
+&nbsp;
 __Step 2. Specify the basketball in the image with LabelImg__\
 After I collected the data, I need to specify where is the basketball in the image. I used LabelImg to do this. You need to label all the pictures in your dataset. 
 <img src = "labelimage.gif" width='900' heigh='600'>\
 (I did this for 309 times....)
 
 ---
-
+&nbsp;
 __Step 3. Train the image datasets by google colab__\
 The fun part begins! Time to train our dataset.\
 The reason why I used google colab is that it provides free GPU. Training the YOLO algorithm requires heavy computation and using GPU can make this process faster.\
@@ -52,7 +52,7 @@ The reason why I used the YOLO is that the YOLO is based on regression. It can s
 If you want to use for real-time object detection, YOLO is a good choice.
 
 ---
-
+&nbsp;
 __Step 4. Create Python project to implement the model__\
 Final step! I used the model I trained to detect the basketball in the video.\
 And after I located the ball I circled it based on the center and the radius. And stored the previous ball's center in a list. Therefore, I can use the list to draw a tracking line on the video.\
@@ -60,7 +60,7 @@ You can find my Python file in the repositories. (yolo_video.py)
 <img src = "githib_two_ball.gif" width='900' heigh='600'>
 <img src = "basketball_probability.jpg" width='900' heigh='600'>\
 (The model recognized basketball and circled it successfully. Also, gave it a probability!)
-
+&nbsp;
 # Summary
 By the project, I finally enter the world of deep learning. I will keep learning and refine this project. My next idea is to create a multiple objects detection. Hope you guys like my project and thank you for reading!\
 Happy Learning and See y'all in the next project!
